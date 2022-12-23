@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: brandon-grotesque, sans-serif;
+  background-color: #f5f5f5;
 }
 
 /*************** header *********************/
@@ -27,6 +28,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  background-color: #ebebeb;
   padding-top: 30px;
   padding-bottom: 20px;
 }
@@ -40,6 +42,14 @@ nav {
   float: left;
   padding-right: 4rem;
 }
+.logo {
+  width: 30rem;
+  height: auto;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+
 .kryds {
   display: inline;
 }
@@ -58,15 +68,6 @@ a {
   color: black;
   letter-spacing: 0.0555556em;
 }
-.logo {
-  text-decoration: none;
-  font-weight: 900;
-  color: black;
-  font-size: 35px;
-  letter-spacing: 0.0555556em;
-  line-height: 1.2em;
-  text-transform: uppercase;
-}
 
 .main-menu a:hover {
   color: #9c9c9c;
@@ -76,33 +77,50 @@ a {
 }
 
 /************ MENU ***********************************************/
-
-/* header */
-.banner {
-  padding: 2rem;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px 40px;
+@media (max-width: 608px) {
+  .logo {
+    width: 20rem;
+    height: auto;
+    text-align: center;
+    display: block;
+    position: relative;
+  }
 }
 
-.main-menu ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 1rem;
-}
+@media (max-width: 1306px) {
+  .logo {
+    width: 30rem;
+    height: auto;
+    text-align: center;
+    display: block;
+    position: relative;
+  }
 
-/* burgermenu */
-#container {
-  background: transparent;
-  border: none;
-  display: none;
-  text-align: right;
-}
+  /* header */
+  .banner {
+    padding: 2rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px 40px;
+  }
 
-@media (min-width: 0px) {
+  .main-menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+
+  /* burgermenu */
+  #container {
+    background: transparent;
+    border: none;
+    display: none;
+    text-align: right;
+  }
+
   #container {
     display: block;
   }
