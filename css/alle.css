@@ -31,6 +31,7 @@ header {
   background-color: #ebebeb;
   padding-top: 30px;
   padding-bottom: 20px;
+  position: sticky;
 }
 nav {
   display: flex;
@@ -48,6 +49,14 @@ nav {
   text-align: center;
   display: block;
   position: relative;
+}
+.banner {
+  padding: 2rem;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 40px;
 }
 
 .kryds {
@@ -77,23 +86,23 @@ a {
 }
 
 /************ MENU ***********************************************/
-@media (max-width: 608px) {
-  .logo {
-    width: 20rem;
-    height: auto;
-    text-align: center;
-    display: block;
-    position: relative;
-  }
-}
 
-@media (max-width: 1306px) {
+@media (max-width: 1450px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #ebebeb;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: sticky;
+  }
   .logo {
     width: 30rem;
     height: auto;
     text-align: center;
     display: block;
-    position: relative;
+    position: sticky;
   }
 
   /* header */
@@ -175,5 +184,14 @@ a {
   /* Rotater sidste bar */
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
+  }
+}
+@media (max-width: 545px) {
+  .logo {
+    width: 19.5rem;
+    height: auto;
+    text-align: center;
+    display: block;
+    position: sticky;
   }
 }
