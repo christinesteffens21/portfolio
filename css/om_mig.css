@@ -1,0 +1,44 @@
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .text_container {
+    padding-inline: 60px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+  }
+  main {
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 801px) {
+  .text_container {
+    padding-inline: 80px;
+    padding-bottom: 20px;
+  }
+}
+
+p {
+  letter-spacing: 0.8px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.billede {
+  padding-inline: 80px;
+  padding-bottom: 20px;
+  padding-top: 0.5rem;
+  padding-bottom: 60px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 40px;
+  font-family: "Brandon Grotesque Medium", sans-serif;
+}
