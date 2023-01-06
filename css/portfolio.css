@@ -1,0 +1,23 @@
+main {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+h1 {
+  font-family: "Brandon Grotesque Light", sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: "Brandon Grotesque medium", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.billede {
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  height: 20rem;
+  width: auto;
+  align-items: center;
+}

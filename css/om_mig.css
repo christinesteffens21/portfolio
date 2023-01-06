@@ -9,7 +9,7 @@
     padding-bottom: 20px;
   }
   main {
-    max-width: 1200px;
+    max-width: 1170px;
     margin-inline: auto;
   }
 }
@@ -35,10 +35,9 @@ p {
   padding-bottom: 60px;
 }
 h1 {
-  font-size: 50px;
-  font-weight: 300;
+  font-family: "Brandon Grotesque medium", sans-serif;
   text-align: center;
-  padding-bottom: 60px;
-  padding-top: 40px;
-  font-family: "Brandon Grotesque Medium", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
 }
