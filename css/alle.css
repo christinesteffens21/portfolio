@@ -27,7 +27,9 @@ p {
   margin-bottom: 1rem;
   font-family: "Times New Roman", Times, serif;
   margin-inline: 20px;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  font-size: 20px;
 }
 .tema {
   border-bottom: 1px solid;
