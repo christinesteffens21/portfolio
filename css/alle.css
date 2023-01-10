@@ -5,14 +5,12 @@
   box-sizing: border-box;
 }
 
-/*************** img *********************/
+/*************** main *********************/
 
 img {
   width: 100%;
   display: block;
 }
-
-/*************** body *********************/
 
 body {
   min-height: 100vh;
@@ -34,7 +32,6 @@ p {
 .tema {
   border-bottom: 1px solid;
 }
-
 .line {
   border-bottom: 1px solid;
   margin-top: 1rem;
